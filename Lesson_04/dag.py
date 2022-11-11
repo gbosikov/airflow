@@ -6,8 +6,8 @@ from airflow.models import Variable
 from airflow.decorators import task
 
 default_args = {
-    'owner': 'gb',
-    'start_date': dt.datetime(2022, 11, 11),
+    'owner': 'alex',
+    'start_date': dt.datetime(2022, 10, 16),
     'retries': 1,
     'retry_delay': dt.timedelta(minutes=1)
 }
